@@ -1,0 +1,1 @@
+SELECT Portfolio,SUM(Weight) FROM employees GROUP BY Portfolio HAVING COUNT(Portfolio)>=10
